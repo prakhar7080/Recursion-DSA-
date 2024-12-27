@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+//This code will print all subsequences
 void printSub(string str, string substr, int index){
     if(index == str.length()){
         cout<<substr<<endl;
